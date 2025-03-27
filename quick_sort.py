@@ -31,8 +31,4 @@ def quick_sort(arr, low, high, pivot_type="left"):
         quick_sort(arr,low, pivot_idx - 1, pivot_type)
         quick_sort(arr, pivot_idx + 1, high, pivot_type)
 
-inpt = [12, 11, 13, 5, 6, 7]
-print("bazowa tablica: ", inpt)
-quick_sort(inpt, 0, len(inpt) - 1, pivot_type="random")
-print("posortowana tablica: ", inpt)
 

@@ -19,9 +19,3 @@ def heap_sort(inpt):
         inpt[i],inpt[0] =inpt[0],inpt[i]
         heapify(inpt, i, 0)
 
-
-inpt = [12, 11, 13, 5, 6, 7]
-
-print("bazowa tablica: ", inpt)
-heap_sort(inpt)
-print("posortowana tablica: ", inpt)

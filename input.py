@@ -20,8 +20,3 @@ def generate_data(n, data_type: DataType):
     elif data_type ==DataType.A_SHAPED:
         half = n// 2
         return list(range(1, half + 2)) + list(range(half, 0, -1))
-
-n = 10
-generated_data ={dtype.value: generate_data(n, dtype) for dtype in DataType}
-for dtype, data in generated_data.items():
-    print(f"{dtype}: {data}")

@@ -24,8 +24,3 @@ def shell_sort(data):
                 data[j] = data[j - gap]
                 j -= gap
             data[j] = temp
-
-data = [45, 12, 89, 33, 76, 17, 92, 5, 31, 63]
-print("bazowa tablica: ", data)
-shell_sort(data)
-print("posortowana tablica: ", data)

@@ -31,6 +31,7 @@ while True:
         print("podaj poprawna liczbe")
 
 data = generate_data(n, selected_data_type)
+print("Wygenerowana tablica: ", data)
 sorting_algorithms = {
     "Heap Sort": heap_sort,
     "Quick Sort (Left Pivot)": lambda arr: quick_sort(arr, 0, len(arr) - 1, pivot_type="left"),
